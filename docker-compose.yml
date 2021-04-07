@@ -1,0 +1,15 @@
+version: "3"
+
+services:
+  node:
+    tty: true
+    image: "node"
+    container_name: react
+    working_dir: /home/node/app
+    environment:
+      - NODE_ENV=development
+    volumes:
+      - ./:/home/node/app
+    ports:
+      - "3000:3000"
+    privileged: true # Privileged mode could be required to run this container under Windows
