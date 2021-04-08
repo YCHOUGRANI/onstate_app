@@ -18,3 +18,6 @@ As infrastructure I used an official Docker Composer for node js
 7. docker exec react npm start
 
 8. Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
+![onstate_app_react](https://user-images.githubusercontent.com/61298854/113988172-18235200-9847-11eb-8dc9-bb7c188ea8d8.PNG)
+
