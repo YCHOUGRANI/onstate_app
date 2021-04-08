@@ -1,5 +1,7 @@
 # Onstate Challenge
 
+I used reactjs to display a list of products.
+
 As infrastructure I used an official Docker Composer for node js
 
 2.	Install Docker and Docker compose:
